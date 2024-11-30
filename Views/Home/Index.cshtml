@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = ViewData["Layout"] as string ?? "~/Views/Shared/_Layout.cshtml";
+}
+
+@* <div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div> *@
+@* @IgnoreSection('') *@
+<div id="three-container" style="width: 100%; height: 100%; position: fixed; top: 0; left: 0;">
+    <!-- Three.js will render here -->
+</div>
+
+@section Scripts {
+    <script src="/js/bundle.js"></script>
+}
